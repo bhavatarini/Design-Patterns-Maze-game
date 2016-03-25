@@ -89,7 +89,7 @@ public class maain {
 		public static int[][] CreateMaze() throws Exception{
 
 			
-			int[][] a=new int[20][5];
+			int[][] a=new int[100][5];
 			String str="";
 			int j = 0;
 			String[] s=null;
