@@ -29,7 +29,7 @@ public class Test {
 		String[] s = null;
 		BufferedReader br;
 	    br = new BufferedReader(new FileReader("TraverseMaze.txt"));
-	    while( (str = br.readLine()) != null)
+	    while((str = br.readLine()) != null)
         {
             s = str.split(" ");
             len = s.length;
